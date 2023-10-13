@@ -30,7 +30,7 @@ public class TestPolymerItem extends Item implements PolymerItem {
             return result;
         }
 
-        user.sendMessage(Text.literal("노무현 운지"), false);
+        user.sendMessage(Text.literal("use event!"), false);
 
         return TypedActionResult.success(result.getValue());
     }
